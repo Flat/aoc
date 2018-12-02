@@ -24,7 +24,7 @@ fn main() -> Result<(), Box<Error>> {
     }
     let mut count = 0;
     for num in input_vec {
-        count = count + num;
+        count += num;
     }
     Ok(println!("{}", count))
 }
