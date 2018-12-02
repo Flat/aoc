@@ -1,0 +1,8 @@
+[package]
+name = "aoc-1-1"
+version = "0.1.0"
+authors = ["Ken Swenson <flat@esoteric.moe>"]
+edition = "2018"
+
+[dependencies]
+clap = "2.32.0"
