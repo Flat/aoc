@@ -6,10 +6,10 @@ use std::io::BufRead;
 use std::collections::HashSet;
 
 fn main() -> Result<(), Box<Error>> {
-    let matches = App::new("aoc-1-1")
-        .about("Solves Advent of Code day 1 part 1")
+    let matches = App::new("aoc-1-2")
+        .about("Solves Advent of Code day 1 part 2")
         .arg(Arg::with_name("INPUT")
-            .help("Sets the input file from aoc-1-1.")
+            .help("Sets the input file from aoc-1-2.")
             .required(true)
             .index(1))
         .get_matches();
